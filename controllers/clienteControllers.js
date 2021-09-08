@@ -3,7 +3,7 @@ const Clientes = require('../models/Clientes');
 //insertar los clientes en la db
 exports.nuevoCliente = async (req, res, next)=>{
     
-    const clientes = Clientes(req.body);
+    const clientes = Clientes(req.body); 
 
     try {
         //almacenar el registros
