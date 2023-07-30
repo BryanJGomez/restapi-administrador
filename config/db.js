@@ -1,8 +1,9 @@
 const mongoose = require('mongoose');
 
 //configuracion para entrar a la db
+
 mongoose.Promise = global.Promise;
-mongoose.connect('mongodb://localhost/restapis',{
+mongoose.connect('mongodb://root:bryanjgomez@captain.captain.server.bgmz.me:27016/?authMechanism=DEFAULT',{
     useNewUrlParser:true,
     useUnifiedTopology: true,
     useFindAndModify: false,
